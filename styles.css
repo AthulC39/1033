@@ -1,0 +1,63 @@
+/* Reset some default styles */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Style the layout table */
+table.layout {
+    width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Style the banner image */
+table.layout img {
+    width: 100%;
+    display: block;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the main content */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Style the email link */
+a[href^="mailto"] {
+    color: #0072C6;
+    text-decoration: none;
+}
+
+/* Add your own CSS styles for images, links, and other elements as needed */
