@@ -1,63 +1,79 @@
-/* Reset some default styles */
-body, h1, p, ul, li, a {
-    margin: 0;
-    padding: 0;
+.bolder {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+    background-color: green;
+    padding: 10px; /* Add padding inside the border */
 }
 
-/* Apply background color */
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    padding: 20px;
+.coolHeader {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-weight: bold;
+    font-size: 50px;
+    color: wheat;
+    
 }
 
-/* Style the layout table */
-table.layout {
-    width: 1000px;
-    margin: 0 auto;
-    border-collapse: collapse;
+.mediumHeader{
+    font-size: 24px;
+    color: lightblue; /* Text color */
+    margin-bottom: 15px; /* Bottom margin for spacing */
+    margin-bottom: 15px; /* Bottom margin for spacing */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* White outline */
 }
 
-/* Style the banner image */
-table.layout img {
-    width: 100%;
-    display: block;
+.playersBorder {
+    border: 2px solid lightgoldenrodyellow; /* Border color */
+    padding: 15px; /* Padding for space inside the border */
+    margin-bottom: 20px; /* Bottom margin for spacing between player profiles */
+    overflow: hidden; /* Clear float to contain floated image */
 }
 
-/* Style the navigation menu */
+.playersImg {
+    float: left; /* Float the image to the left */
+    margin-right: 15px; /* Right margin for spacing between image and text */
+    max-width: 150px; /* Adjust the maximum width of the image */
+}
+
+
+.players {
+    font-size: 20px;
+    color: lightsalmon; /* Text color */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* White outline */
+}
+
+
+.body {
+    background-color: #131313; /* Set a light gray background color for the entire page */
+    width: 1000px; /* Limit the maximum width of the page to 1000 pixels */
+    color: white;
+}
+
+
+
 nav ul {
-    list-style: none;
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    background-color: #333; /* Set background color for the navigation bar */
+    overflow: hidden; /* Hide overflowing content */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set text color for links */
+    font-weight: bold; /* Set font weight for links */
 }
 
-/* Style the main content */
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-top: 20px;
+h1.bolder {
+    font-weight: bold; /* Set font weight for the specific h1 heading */
 }
 
-p {
-    font-size: 16px;
-    color: #555;
-    margin: 10px 0;
-}
 
-/* Style the email link */
-a[href^="mailto"] {
-    color: #0072C6;
-    text-decoration: none;
-}
 
-/* Add your own CSS styles for images, links, and other elements as needed */
